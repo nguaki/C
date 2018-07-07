@@ -1,0 +1,12 @@
+# of Diners:2
+Dish: chicken
+Dish: beef
+DRINK: COKE
+# of Diners:2
+Dish: chicken
+Dish: beef
+DRINK: ICE-TEA
+# of Diners:2
+Dish: chicken
+Dish: beef
+DRINK: ORANGE JUICE

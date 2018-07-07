@@ -1,0 +1,10 @@
+#!/bin/bash
+
+./open_file
+exit_status="$?"
+echo $exit_status
+
+if [ $exit_status -eq 1 ]	# is $X less than $Y ? 
+then
+	echo "FILE not there"
+fi

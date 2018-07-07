@@ -1,0 +1,88 @@
+
+Rules of reading C declaration
+--------------------------------
+*   "pointer to ..."
+[]  "array of ..."
+()  "function returning ..."
+
+
+1. Start with the variable name (leftmost identifier)
+2. Go right when you can, go left when you must
+    You must go left when:
+    a. You hit a closing parenthesis.
+    b. After a "function returning..."
+    c. You reach the end of the declaration
+3. End with the basic type
+
+Priority
+(1)Grouping Parenthesis   
+(2)Postfix operators (array,function)  
+(3)Prefix operator (*)
+
+Example :
+char * (*c[10]) (int **p)
+
+c is an array of 10 pointer to a function that returns pointer to char.
+
+Example :
+long **foo[7];
+
+foo is an array of 7 pointers to pointer to long
+
+Example:
+char *(*(**foo [][8])())[]'
+
+foo is an array of array of 8 pointers to pointer to a function that returns a pointer
+to a function  that returns a pointer to an array of pointers to char
+
+
+Example:
+char * const *(*next)();
+
+next is a pointer to a function that returns a const pointer to a pointer
+to char.
+
+Example:
+char * (*c[10])(int **p);
+
+c is an array of 10 pointers to a function that returns a pointer to char.
+The input parameters of the function is a pointer to pointer to int.
+
+Example:
+void ( *signal( int sig, void (*func)(int) ) (int)
+
+signal is a pointer to a function returning void.  The argument of the function
+is an int.
+
+Simplification:
+typedef void (*ptr_to_func)(int)
+
+ptr_to_func is synonym to a function pointer that returns void and the function
+argument is an int.
+
+ptr_to_func signal( int sig, ptr_to_func )
+
+
+Abstract Declarators
+-----------------------
+Used when a type needs to be described but not associated with variable name.
+
+int (*(*)())()    <=== This is not associated with any variable name.
+
+
+Here is the instruction of inserting a variable name.
+1. To the right of "pointer to" *
+2. To the left of "array of" []
+3. To the left of "function returning" ()
+4. Inside all the grouping parenthesis
+
+int (*(*foo)())()
+
+    1. foo is to the right of right most pointer.
+    2. 
+    3. foo is to the left of ()
+    4. foo is inside grouping parenthesis.
+    
+    
+foo is a pointer to a function(void) returning a pointer to a function(void)
+returning int.

@@ -1,0 +1,54 @@
+./TEST/EXE/runTests.sh: 16: ./TEST/EXE/runTests.sh: ././TEST/EXE/runTests.sh: Permission denied
+./TEST/EXE/runTests.sh: 16: ./TEST/EXE/runTests.sh: ././TEST/EXE/runTests.sh: Permission denied
+./TEST/EXE/runTests.sh: 16: ./TEST/EXE/runTests.sh: ././TEST/EXE/runTests.sh: Permission denied
+./TEST/EXE/runTests.sh: 16: ./TEST/EXE/runTests.sh: ././TEST/EXE/runTests.sh: Permission denied
+./TEST/EXE/runTests.sh: 16: ./TEST/EXE/runTests.sh: ././TEST/EXE/runTests.sh: Permission denied
+./TEST/EXE/runTests.sh: 16: ./TEST/EXE/runTests.sh: ././TEST/EXE/runTests.sh: Permission denied
+./TEST/EXE/runTests.sh: 16: ./TEST/EXE/runTests.sh: ././TEST/EXE/runTests.sh: Permission denied
+./TEST/EXE/runTests.sh: 16: ./TEST/EXE/runTests.sh: ././TEST/EXE/runTests.sh: Permission denied
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted
+runTest4: TEST/runTest4.c:31: void vTest4(): Assertion `iResult == 180' failed.
+Aborted

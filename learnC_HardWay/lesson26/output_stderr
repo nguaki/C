@@ -1,0 +1,7 @@
+[ERROR](logfind.c58: error no:None)Usage: logfind [-o] 
+[ERROR](logfind.c170: error no:None)Invalid arguement.
+
+[ERROR](logfind.c58: error no:None)Usage: logfind [-o] 
+[ERROR](logfind.c170: error no:None)Invalid arguement.
+
+make: *** [all] Error 255

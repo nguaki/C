@@ -1,0 +1,11 @@
+./logfind God worthy beginning Paul
+./logfind -o God worthy beginning Paul
+God is found in file aaa line=God so loved the world
+
+worthy is found in file aaa line=I am not worthy to tie his shoes.
+beginning is found in file bbb line=In the beginning, there was WORD.
+Paul is found in file ccc line=Paul, a slave, an apostle of Jesus.
+./logfind beginning WORD
+All words are found in file bbb
+./logfind || true
+./logfind 
